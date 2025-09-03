@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geopolítica em Dia — Últimas Notícias</title>
+  <meta name="description" content="Notícias de geopolítica envolvendo tecnologia, guerras e acordos econômicos com imagens relacionadas a cada tema." />
+  <style>
+    :root{
+      --accent:#cc0000;
+      --bg:#ffffff;
+      --muted:#555;
+      --max-width:1200px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:#111;line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    .container{max-width:var(--max-width);margin:0 auto;padding:0 16px}
+
+    /* Barra fixa */
+    header{position:fixed;top:0;left:0;width:100%;background:var(--bg);z-index:1000;border-bottom:4px solid var(--accent);display:flex;align-items:center;justify-content:space-between;padding:12px 16px;box-shadow:0 2px 6px rgba(0,0,0,0.1)}
+    .logo{font-size:22px;font-weight:900;color:var(--accent)}
+    nav ul{display:flex;gap:16px;list-style:none}
+    nav li{position:relative}
+    nav a{font-weight:700;color:#111;text-transform:uppercase;font-size:14px;padding:8px}
+    nav a:hover{color:var(--accent)}
+
+    nav li ul{display:none;position:absolute;top:36px;left:0;background:#fff;border:1px solid #eee;list-style:none;padding:0;min-width:140px;box-shadow:0 2px 6px rgba(0,0,0,0.15)}
+    nav li:hover ul{display:block}
+    nav li ul li a{display:block;padding:8px 12px;font-weight:400;color:#111}
+    nav li ul li a:hover{background:var(--accent);color:#fff}
+
+    .content{margin-top:100px}
+
+    .article-header{margin-top:20px}
+    .article-header h1{font-size:28px;font-weight:800;margin-bottom:10px}
+    .article-meta{font-size:13px;color:var(--muted);margin-bottom:20px}
+    .article-header img{width:100%;max-height:420px;object-fit:cover;border-radius:6px;margin-bottom:16px}
+
+    .article-body p{margin-bottom:16px;font-size:16px;color:#222}
+    .article-body h2{font-size:20px;margin:20px 0 10px 0;color:#111;border-left:5px solid var(--accent);padding-left:8px}
+
+    .tags{margin-top:20px;display:flex;flex-wrap:wrap;gap:8px}
+    .tags span{background:#f1f1f1;padding:6px 10px;font-size:13px;border-radius:4px}
+
+    .related{margin-top:30px}
+    .related h3{font-size:18px;margin-bottom:10px;font-weight:800;border-bottom:2px solid var(--accent);padding-bottom:6px}
+    .related ul{list-style:none;padding:0}
+    .related li{margin-bottom:10px}
+    .related a{color:var(--accent);font-weight:600}
+
+    footer{margin-top:40px;padding:16px 0;background:#111;color:#fff;text-align:center;font-size:13px}
+
+    @media (max-width:900px){.container{padding:0 10px}}
+    @media (max-width:600px){nav ul{flex-direction:column;display:none;position:absolute;top:60px;left:0;width:100%;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1)}nav li ul{position:static}nav li:hover ul{display:none}.article-header h1{font-size:22px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Geopolítica em Dia</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="#">Mundo ▾</a>
+          <ul>
+            <li><a href="#">Europa</a></li>
+            <li><a href="#">Américas</a></li>
+            <li><a href="#">Ásia</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Política ▾</a>
+          <ul>
+            <li><a href="#">Eleições</a></li>
+            <li><a href="#">Diplomacia</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Economia ▾</a>
+          <ul>
+            <li><a href="#">Comércio</a></li>
+            <li><a href="#">Investimentos</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Opinião</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container content">
+    <!-- Setembro 2025 -->
+    <section class="article-header">
+      <h1>IA estratégica: países competem por liderança em inteligência artificial militar</h1>
+      <div class="article-meta">Publicado em Setembro 2025 • Por Redação Geopolítica em Dia</div>
+      <img src="https://source.unsplash.com/featured/?artificial-intelligence,military" alt="IA Militar">
+    </section>
+
+    <!-- Agosto 2025 -->
+    <section class="article-header">
+      <h1>Tensões no leste europeu aumentam após conflito em fronteira estratégica</h1>
+      <div class="article-meta">Publicado em Agosto 2025 • Por Redação Geopolítica em Dia</div>
+      <img src="https://source.unsplash.com/featured/?europe,war,conflict" alt="Conflito Leste Europeu">
+    </section>
+
+    <!-- Julho 2025 -->
+    <section class="article-header">
+      <h1>Acordo econômico histórico entre potências asiáticas fortalece comércio regional</h1>
+      <div class="article-meta">Publicado em Julho 2025 • Por Redação Geopolítica em Dia</div>
+      <img src="https://source.unsplash.com/featured/?asia,economy,trade" alt="Acordo Econômico Asiático">
+    </section>
+
+    <!-- Junho 2025 -->
+    <section class="article-header">
+      <h1>Ciberataques em infraestrutura crítica geram tensão entre nações</h1>
+      <div class="article-meta">Publicado em Junho 2025 • Por Redação Geopolítica em Dia</div>
+      <img src="https://source.unsplash.com/featured/?cybersecurity,hacking" alt="Ciberataques">
+    </section>
+
+    <!-- Maio 2025 -->
+    <section class="article-header">
+      <h1>Cúpula internacional fecha acordo sobre inovação tecnológica e comércio</h1>
+      <div class="article-meta">Publicado em Maio 2025 • Por Redação Geopolítica em Dia</div>
+      <img src="https://source.unsplash.com/featured/?international,summit,conference" alt="Cúpula Internacional">
+    </section>
+
+    <footer>
+      © Geopolítica em Dia — atualidades e geopolítica últimas notícias
+    </footer>
+  </div>
+</body>
+</html>
